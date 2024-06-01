@@ -1,2 +1,0 @@
-# 30May_Python_Brijesh
-30May_Python_Brijesh
