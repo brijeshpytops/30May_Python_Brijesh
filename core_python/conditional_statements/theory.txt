@@ -1,0 +1,91 @@
+Conditional statements in Python are used to execute different actions based on whether a certain condition evaluates to true or false. They allow you to control the flow of your program based on the values of variables or expressions.
+
+1. if Statement:
+
+The if statement is used to test a condition. If the condition is true, the code block inside the if statement is executed.
+
+Syntax:
+if conditions:
+    # code block
+
+Example:
+x = 10
+if x > 5:
+    print("x is greater than 5")
+
+2. if...else Statement:
+The if...else statement is used to execute one block of code if the condition is true, and another block of code if the condition is false.
+
+syntax:
+if condition:
+    # code block for true condition
+else:
+    # code block for false condition
+
+Exmaple:
+x = 10
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is not greater than 5")
+
+3. Nested if Statement:
+A nested if statement is an if statement inside another if statement.
+
+synatx:
+if condition1:
+    # code block 1
+    if condition2:
+        # code block 2
+
+Example:
+x = 10
+if x > 5:
+    print("x is greater than 5")
+    if x > 8:
+        print("x is greater than 8")
+
+4. if...elif...else Statement:
+The if...elif...else statement is used when there are multiple conditions to be checked.
+
+Syntax:
+if condition1:
+    # code block 1
+elif condition2:
+    # code block 2
+else:
+    # code block 3
+
+Example:
+x = 10
+if x > 5:
+    print("x is greater than 5")
+elif x == 5:
+    print("x is equal to 5")
+else:
+    print("x is less than 5")
+
+5. match Statement (Python 3.10+):
+The match statement is used for pattern matching. It compares a value against patterns and executes the code block corresponding to the matched pattern.
+
+Syntax:
+match value:
+    case pattern1:
+        # code block 1
+    case pattern2:
+        # code block 2
+    ...
+    case patternN:
+        # code block N
+    case _:
+        # default code block
+
+Example:
+x = 10
+match x:
+    case 5:
+        print("x is 5")
+    case 10:
+        print("x is 10")
+    case _:
+        print("x is neither 5 nor 10")
