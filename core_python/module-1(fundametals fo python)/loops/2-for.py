@@ -123,21 +123,57 @@ for var/element in sequence:
 #         -
 
 
-num = 6
-for row in range(1,num):
-    for col in range(1,num-row):
-        print(' ', end=" ")
-    for col in range(1,row+1):
-        print('-', end=" ")
-    for col in range(1,row):
-        print('-', end=" ")
-    print()
-for row in range(1,num):
-    for col in range(1,row+1):
-        print(' ', end=" ")
-    for col in range(1,num-row):
-        print('-', end=" ")
-    for col in range(1,num-1-row):
-        print('-', end=" ")
-    print()
+# num = 6
+# for row in range(1,num):
+#     for col in range(1,num-row):
+#         print(' ', end=" ")
+#     for col in range(1,row+1):
+#         print('-', end=" ")
+#     for col in range(1,row):
+#         print('-', end=" ")
+#     print()
+# for row in range(1,num):
+#     for col in range(1,row+1):
+#         print(' ', end=" ")
+#     for col in range(1,num-row):
+#         print('-', end=" ")
+#     for col in range(1,num-1-row):
+#         print('-', end=" ")
+#     print()
 
+# 1 2 3 4 5
+# 6 7 8 9 10
+# 11 12 13 14 15
+# 16 17 18 19 20
+# 21 22 23 24 25
+
+# num = 5
+# global_var = 1
+# for row in range(1, num+1):
+#     for col in range(1, num+1):
+#         print(global_var, end=' ')
+#         global_var+=1
+#     print()
+
+# 1
+# 23
+# 456
+# 78910
+
+# A
+# BC
+# DEF
+
+
+# A B C D
+# E F G
+# H I
+# J
+
+num = 5
+global_var = 1
+for row in range(1, num+1):
+    for col in range(1, num+1-row):
+        print(chr(global_var + 64), end=' ')
+        global_var+=1
+    print()
