@@ -10,7 +10,7 @@
 # name = "python"
 # print(type(name)) # <class 'str'>
 
-# # data-collectyion 
+# # data-collection 
 # items = ['pen', 'book', 'totmato', 6753, 476.6735]
 # print(type(items)) # list
 

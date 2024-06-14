@@ -18,7 +18,7 @@ code = "python"
 # print(type(code)) # <class 'str'>
 # print(len(code)) # 6
 
-# indeing (+/-):  Accessing individual characters in a string using zero-based indices.
+# indexing (+/-):  Accessing individual characters in a string using zero-based indices.
 
 # left to right(+)
 # print(code[0])
