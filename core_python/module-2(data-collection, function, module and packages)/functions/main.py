@@ -108,3 +108,37 @@ user-define function :
 # print(x)
 
 # len()
+
+# @decorator
+
+# def lower_case(func):
+#     def wrapper(*args, **kwargs):
+#         res = func().lower()
+#         print(res)
+#         return res
+#     return wrapper
+
+# def title_case(func):
+#     def wrapper(*args, **kwargs):
+#         res = func().title()
+#         print(res)
+#         return res
+#     return wrapper
+
+# @title_case
+# @lower_case
+# def string():
+#     return input("Enter something... ")
+
+# print(string())
+
+# nums = [1,2,3,4,5]
+
+# num = iter(nums)
+
+# print(next(num))
+# print(next(num))
+# print(next(num))
+# print(next(num))
+# print(next(num))
+# print(next(num))
